@@ -68,10 +68,11 @@ def initialize_voxels():
     draw_rainBow(ivec3(-10, 22, 2), 7, vec3(1, 1, 0))
     draw_rainBow(ivec3(-10, 22, 2), 8, vec3(1, 0.5, 0))
     draw_rainBow(ivec3(-10, 22, 2), 9, vec3(1, 0.1, 0.1))
-    draw_circle(ivec3(0, 18, 2), 8, vec3(1, 0.7, 0.8)) # star Kirby
-    draw_circle(ivec3(-4, 10, 2), 3, vec3(1, 0.2, 0.2))
+    draw_circle(ivec3(-8, 20, 2), 3, vec3(1, 0.7, 0.8)) # star Kirby
+    draw_circle(ivec3(8, 18, 2), 3, vec3(1, 0.7, 0.8))
+    draw_circle(ivec3(-4, 11, 2), 3, vec3(1, 0.2, 0.2))
+    draw_circle(ivec3(0, 18, 2), 8, vec3(1, 0.7, 0.8))
     draw_circle(ivec3(5, 13, 2), 3, vec3(1, 0.2, 0.2))
-    draw_circle(ivec3(-8, 20, 2), 3, vec3(1, 0.7, 0.8))
     draw_line(ivec3(0, 16, 2), 1, 2, vec3(0, 0, 0))
     draw_line(ivec3(-1, 19, 2), 1, 3, vec3(0, 0, 0))
     draw_line(ivec3(1, 19, 2), 1, 3, vec3(0, 0, 0))
